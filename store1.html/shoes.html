@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmashStation - Yonex Shoes</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #add8e6; /* Light Blue */
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            position: relative;
+        }
+
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: auto;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #1e3a8a; /* Deep blue for contrast */
+            font-size: 1em;
+        }
+
+        /* Main Content */
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        main p {
+            font-size: 1.2em;
+            color: #1e3a8a; /* Deep blue for contrast */
+            margin-bottom: 20px;
+        }
+
+        /* Product List */
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        li {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            font-size: 1.2em;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        li img {
+            width: 80%;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #add8e6; /* Light Blue */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            header img {
+                width: 60px;
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            header p {
+                font-size: 0.9em;
+            }
+
+            ul {
+                gap: 10px;
+            }
+
+            li {
+                width: 100%; /* Full-width for smaller screens */
+            }
+
+            main p {
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header img {
+                width: 50px;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            main p {
+                font-size: 0.9em;
+            }
+
+            li {
+                font-size: 1em;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="Smashstations.png" alt="SmashStation Logo">
+        <h1>Welcome to SmashStation</h1>
+        <p>Your Trusted Yonex Shoes Store</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <p>Discover the best Yonex badminton shoes for your game!</p>
+        <ul>
+            <li>
+                <img src="Screenshot 2025-01-29 071350.jpg" alt="Yonex Power Cushion 65">
+                Yonex Power Cushion 65 Z3 Badminton Shoes
+            </li>
+            <li>
+                <img src="Screenshot 2025-01-29 071450.jpg" alt="Yonex Power Cushion Comfort">
+                Yonex Power Cushion Comfort Z2 Shoes
+            </li>
+            <li>
+                <img src="Screenshot 2025-01-29 071546.jpg" alt="Yonex Power Cushion Eclipsion">
+                Yonex Power Cushion Eclipsion Z3 Shoes
+            </li>
+        </ul>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 SmashStation. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
