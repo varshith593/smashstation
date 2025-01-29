@@ -1,1 +1,4 @@
 # smashstation
+group members IIT2024205 - ADITYA SINGH PUNDIR
+IIT2024151 - B.VARSHITH NAIK
+
