@@ -11,54 +11,73 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             color: #333;
             text-align: center;
-            padding: 10px;
         }
+
         header {
             background-color: #add8e6;
             color: white;
             padding: 15px;
+            position: relative;
         }
+
         .nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
             margin-top: 10px;
         }
+
         .nav a {
-            display: inline-block;
             color: white;
             text-decoration: none;
             padding: 8px 12px;
             background-color: #1e3a8a;
             border-radius: 5px;
-            margin: 5px;
         }
+
         .nav a:hover {
             background-color: #14306d;
         }
-        main {
-            padding: 15px;
+
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 60px;
         }
+
+        main {
+            padding: 20px;
+        }
+
         ul {
             list-style: none;
-            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
         }
+
         li {
             background: white;
             border: 1px solid #ddd;
             border-radius: 10px;
             padding: 15px;
-            margin: 10px auto;
-            width: 90%;
-            max-width: 300px;
+            width: 300px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+
         li img {
             width: 100%;
             border-radius: 5px;
         }
+
         .order-button {
             display: block;
             margin: 10px auto 0;
@@ -68,9 +87,11 @@
             text-decoration: none;
             border-radius: 5px;
         }
+
         .order-button:hover {
             background-color: #14306d;
         }
+
         footer {
             background-color: #add8e6;
             color: white;
@@ -81,6 +102,7 @@
 </head>
 <body>
     <header>
+        <img src="Smashstations.jpg" alt="SmashStation Logo">
         <h1>SmashStation</h1>
         <p>Your Trusted Yonex Rackets Store</p>
         <div class="nav">
@@ -88,6 +110,7 @@
             <a href="shoes.html">Shoes</a>
         </div>
     </header>
+
     <main>
         <p>Explore the best Yonex Rackets!</p>
         <ul>
@@ -108,8 +131,9 @@
             </li>
         </ul>
     </main>
+
     <footer>
         <p>©️ 2025 SmashStation. All Rights Reserved.</p>
     </footer>
 </body>
-</html>                                
+</html>
