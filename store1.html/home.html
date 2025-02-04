@@ -56,15 +56,15 @@
             padding: 20px;
         }
 
-        ul {
-            list-style: none;
+        .products {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
+            flex-wrap: wrap;
             gap: 15px;
+            padding: 10px;
         }
 
-        li {
+        .product {
             background: white;
             border: 1px solid #ddd;
             border-radius: 10px;
@@ -73,7 +73,7 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        li img {
+        .product img {
             width: 100%;
             border-radius: 5px;
         }
@@ -113,23 +113,23 @@
 
     <main>
         <p>Explore the best Yonex Rackets!</p>
-        <ul>
-            <li>
+        <div class="products">
+            <div class="product">
                 <img src="Astrox77Play.jpg" alt="Yonex Astrox 77 Play">
-                Yonex Astrox 77 Play Badminton Racket
+                <p>Yonex Astrox 77 Play Badminton Racket</p>
                 <a href="order.html" class="order-button">Order Now</a>
-            </li>
-            <li>
+            </div>
+            <div class="product">
                 <img src="Nanoray.jpg" alt="Yonex Nanoray Light 18i">
-                Yonex Nanoray Light 18i Badminton Racket
+                <p>Yonex Nanoray Light 18i Badminton Racket</p>
                 <a href="order.html" class="order-button">Order Now</a>
-            </li>
-            <li>
+            </div>
+            <div class="product">
                 <img src="Astrox.jpg" alt="Yonex Astrox 88S PRO">
-                Yonex Astrox 88S PRO 3 Gen Badminton Racket
+                <p>Yonex Astrox 88S PRO 3 Gen Badminton Racket</p>
                 <a href="order.html" class="order-button">Order Now</a>
-            </li>
-        </ul>
+            </div>
+        </div>
     </main>
 
     <footer>
